@@ -19,6 +19,12 @@ $ npm install -g gh2ost
 
 Run executable and follow instructions :)
 
+```bash
+$ gh2ost
+```
+
+Now you got Ghost-compliant JSON file which you can import at [http://yourblog.com/ghost/debug/](#).
+
 ## License
 
 This utility is issued under MIT license.
