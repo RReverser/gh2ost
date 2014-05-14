@@ -3,11 +3,9 @@ gh2ost
 
 > Convert Github readmes into Ghost blog posts
 
-This utility converts readmes from your Github repositories into blog posts for [Ghost](https://ghost.org/) blogging system.
+This tool converts readmes from your Github repositories into blog posts for [Ghost](https://ghost.org/) blogging system.
 
-Please note that there is currently limit in 100 repositories.
-
-Also utility automatically filters out repositories without readmes or with readmes less than 140 characters length (tweet-fit description are not blog posts, are they? :) ).
+Also it automatically filters out repositories without readmes or with readmes less than 140 characters length (tweet-fit description are not blog posts, are they? :) ).
 
 ## Usage
 
@@ -27,4 +25,4 @@ Now you got Ghost-compliant JSON file which you can import at [http://yourblog.c
 
 ## License
 
-This utility is issued under MIT license.
+This tool is issued under MIT license.
