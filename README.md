@@ -15,10 +15,27 @@ Install globally with npm:
 $ npm install -g gh2ost
 ```
 
-Run executable and follow instructions :)
+Run executable with optional parameters...
 
 ```bash
-$ gh2ost
+$ gh2ost --help
+
+  Usage: gh2ost [--min-length 140] [--lang-prefix (none by default)] [--user-id 1] [filename]
+
+  Options:
+
+    -h, --help                  output usage information
+    -V, --version               output the version number
+    -m, --min-length <length>   Minimal length for READMEs markdowns to be considered as posts.
+    -p, --lang-prefix <prefix>  ```<prefix>-[lang name] for code blocks to be used (i.e., "lang" for Prism)
+    -u, --user-id <id>          Ghost User ID
+```
+
+...and enter credentials when requested.
+
+```
+Github username: RReverser
+Github password: ********
 ```
 
 Now you got Ghost-compliant JSON file which you can import at [http://yourblog.com/ghost/debug/](#).
