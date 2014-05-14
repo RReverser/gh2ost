@@ -1,9 +1,9 @@
 {
   "name": "gh2ost",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Github readmes into Ghost blog posts",
-  "bin": "bin/index.js",
-  "main": "lib/index.js",
+  "bin": "./bin/index",
+  "main": "./lib/index",
   "dependencies": {
     "bluebird": "^1.2.4",
     "github": "^0.1.16",

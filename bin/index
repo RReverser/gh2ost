@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var Promise = require('bluebird'),
 	read = require('read'),
 	whenRead = function (options) {
