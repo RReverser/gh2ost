@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 
-var program = require('commander');
+var pkg = require('../package.json'),
+	program = new (require('commander').Command)(pkg.name);
 
 program
-.version(require('../package.json').version)
-.usage('[--min-length 140] [--lang-prefix (none by default)] [--user-id 1] [filename]')
+.version(pkg.version)
+.description(pkg.description)
+.usage('[--min-length 140] [--lang-prefix (none by default)] [--user-id 1] [filename.json]')
 .option('-m, --min-length <length>', 'Minimal length for READMEs markdowns to be considered as posts.', Number)
 .option('-p, --lang-prefix <prefix>', '```<prefix>-[lang name] for code blocks to be used (i.e., "lang" for Prism)')
 .option('-u, --user-id <id>', 'Ghost User ID', Number)

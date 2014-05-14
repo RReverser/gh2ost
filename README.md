@@ -20,7 +20,7 @@ Run executable with optional parameters...
 ```bash
 $ gh2ost --help
 
-  Usage: gh2ost [--min-length 140] [--lang-prefix (none by default)] [--user-id 1] [filename]
+  Usage: gh2ost [--min-length 140] [--lang-prefix (none by default)] [--user-id 1] [filename.json]
 
   Options:
 
