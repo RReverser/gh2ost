@@ -1,6 +1,6 @@
 {
   "name": "gh2ost",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Convert Github readmes into Ghost blog posts",
   "bin": "bin/index.js",
   "main": "lib/index.js",
