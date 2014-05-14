@@ -1,0 +1,21 @@
+{
+  "name": "gh2ost",
+  "version": "1.0.0",
+  "description": "Convert Github readmes into Ghost blog posts",
+  "bin": "bin/index.js",
+  "main": "lib/index.js",
+  "dependencies": {
+    "bluebird": "^1.2.4",
+    "github": "^0.1.16",
+    "read": "^1.0.5"
+  },
+  "repository": "RReverser/gh2ost",
+  "keywords": [
+    "ghost",
+    "blog",
+    "posts",
+    "github"
+  ],
+  "author": "Ingvar Stepanyan <me@rreverser.com> (https://github.com/RReverser)",
+  "license": "MIT"
+}
