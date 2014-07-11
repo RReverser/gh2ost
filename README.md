@@ -26,8 +26,9 @@ $ gh2ost --help
 
     -h, --help                  output usage information
     -V, --version               output the version number
-    -m, --min-length <length>   Minimal length for READMEs markdowns to be considered as posts.
+    -m, --min-length <length>   Minimal length for READMEs markdowns to be considered as posts
     -p, --lang-prefix <prefix>  ```<prefix>-[lang name] for code blocks to be used (i.e., "lang" for Prism)
+    -d, --diff                  Export only repos that don\'t exist in destination yet
     -u, --user-id <id>          Ghost User ID
 ```
 
